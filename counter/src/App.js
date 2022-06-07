@@ -25,6 +25,9 @@ function App() {
     <div className="App">
       <h1>Counter</h1>
       <h2>Counter value : {count}</h2>
+      <button onClick={increment}>Increment by 1</button>
+      <button onClick={decrement}>Decrement by 1</button>
+      <h2>Double Increment/Decrement</h2>
       <button onClick={increment2}>Increment by 2</button>
       <button onClick={decrement2}>Decrement by 2</button>
     </div>
