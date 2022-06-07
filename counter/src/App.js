@@ -21,6 +21,14 @@ function App() {
     setCount(count-2)
   }
 
+  const increment3=()=>{
+    setCount(count+3)
+  }
+
+  const decrement3=()=>{
+    setCount(count-3)
+  }
+
   return (
     <div className="App">
       <h1>Counter</h1>
@@ -30,6 +38,9 @@ function App() {
       <h1>Double increment buttons</h1>
       <button onClick={increment2}>Increment by 2</button>
       <button onClick={decrement2}>Decrement by 2</button>
+      <h1>Triple increment buttons</h1>
+      <button onClick={increment3}>Increment by 3</button>
+      <button onClick={decrement3}>Decrement by 3</button>
     </div>
   );
 }
