@@ -13,8 +13,6 @@ function App() {
     setCount(count-1)
   }
 
-
-
   const increment3=()=>{
     setCount(count+3)
   }
