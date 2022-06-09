@@ -51,6 +51,7 @@ function App() {
       <h2>Four Times Increment/Decrement</h2>
       <button onClick={increment4}>Increment by 4</button>
       <button onClick={decrement4}>Decrement by 4</button>
+      <h1>New branch</h1>
     </div>
   );
 }
