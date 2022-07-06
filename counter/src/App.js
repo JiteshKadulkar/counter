@@ -55,6 +55,7 @@ function App() {
       <h1>New brnach 4 info</h1>
       <h1>Branch 5 details</h1>
       <h1>Master update</h1>
+      <h1>New branch b1</h1>
     </div>
   );
 }
